@@ -1,3 +1,8 @@
+# Description:
+#   test
+# Commands:
+#   hubot servo - drive servo motor
+
 
 module.exports = (robot) ->
   robot.hear /servo/i, (msg) ->
